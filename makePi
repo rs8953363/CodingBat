@@ -6,10 +6,13 @@ package Array1;
 public class makePi {
     public static void main(String[] args) {
 
+        int[] output=makePi();
+        System.out.println(output);
+
+
     }
 
     public static int [] makePi() {
         int[] array={3,1,4};
         return array;
     }
-}
