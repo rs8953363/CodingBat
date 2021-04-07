@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class makePi {
     public static void main(String[] args) {
 
-        makePi test1 = new makePi();
-        System.out.println(test1.makePi());
+        makePi output = new makePi();
+        System.out.println(output.makePi());
     }
     public static String makePi() {
         int[] array = {3, 1, 4};
