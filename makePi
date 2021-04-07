@@ -3,16 +3,17 @@ makePi() → [3, 1, 4]
  */
 package Array1;
 
+import java.util.Arrays;
+
 public class makePi {
     public static void main(String[] args) {
 
-        int[] output=makePi();
-        System.out.println(output);
-
-
+        makePi test1 = new makePi();
+        System.out.println(test1.makePi());
+    }
+    public static String makePi() {
+        int[] array = {3, 1, 4};
+        return "[3,1,4]";
     }
 
-    public static int [] makePi() {
-        int[] array={3,1,4};
-        return array;
-    }
+}
